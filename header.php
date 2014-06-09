@@ -51,13 +51,14 @@
                             <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
                             </li>
                             <li class="divider"></li>
-                            <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                            <li><a href="login.php"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
                             </li>
                         </ul>
                         <!-- /.dropdown-user -->
                     </li>
                     <!-- /.dropdown -->
                 </ul>
+                
                 <!-- /.navbar-top-links -->
                 <div class="navbar-default navbar-static-side" role="navigation">
                     <div class="sidebar-collapse">
@@ -74,17 +75,17 @@
                                         <a href="#"><i class="fa fa-plus-circle fa-fw"></i>&nbsp;เพิ่มสินค้า</a>
                                     </li>
                                     <li>
-                                        <a href="#"><i class="fa fa-list fa-fm "></i>&nbsp;รายการสินค้า</a>
+                                        <a href="products.php"><i class="fa fa-list fa-fm "></i>&nbsp;รายการสินค้า</a>
                                     </li>
                                     <!-- Product type -->
                                     <li>
                                         <a href="#">&nbsp;Product types <span class="fa arrow"></span></a>
                                         <ul class="nav nav-third-level">
                                             <li>
-                                                <a href="#"><i class="fa fa-plus-circle fa-fw"></i>&nbsp;เพิ่มประเภทสินค้า</a>
+                                                <a href="add_product_type.php"><i class="fa fa-plus-circle fa-fw"></i>&nbsp;เพิ่มประเภทสินค้า</a>
                                             </li>
                                             <li>
-                                                <a href="#"><i class="fa fa-list fa-fm "></i>&nbsp;รายการประเภทสินค้า</a>
+                                                <a href="product_types.php"><i class="fa fa-list fa-fm "></i>&nbsp;รายการประเภทสินค้า</a>
                                             </li>
                                         </ul>
                                         <!-- /.nav-third-level -->
@@ -104,7 +105,7 @@
                                         <a href="#"><i class="fa fa-pencil-square-o fa-fw"></i>&nbsp;โปรโมชั่นปัจจุบัน</a>
                                     </li>
                                      <li>
-                                        <a href="#"><i class="fa fa-list fa-fm "></i>&nbsp;รายการโปรโมชั่นทั้งหมด</a>
+                                        <a href="promotions.php"><i class="fa fa-list fa-fm "></i>&nbsp;รายการโปรโมชั่นทั้งหมด</a>
                                     </li>
                                     <li>
                                         <a href="#"><i class="fa fa-trash-o fa-fw"></i>&nbsp;โปรโมชั่นหมดอายุ</a>
@@ -134,4 +135,4 @@
                 </div>
                 <!-- /.navbar-static-side -->
             </nav>
-             <div id="page-wrapper">
+            <div  id="page-wrapper">

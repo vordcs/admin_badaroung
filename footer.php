@@ -14,6 +14,7 @@
         <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
+        <script src="js/docs.min.js"></script>
         
         <!-- SB Admin Scripts - Include with every page -->
         <script src="js/sb-admin.js"></script>
